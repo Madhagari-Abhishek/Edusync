@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSync - Track. Learn. Succeed.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; scroll-behavior: smooth; background: #f9fafb; }
+    nav { background: #0f172a; color: #facc15; padding: 1rem; position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; z-index: 1000; }
+    nav a { color: #facc15; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #fbbf24; }
+    header { background: #1e293b; color: #facc15; text-align: center; padding: 5rem 1rem; }
+    section { padding: 4rem 2rem; }
+    h2 { text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #1e293b; }
+    .features, .objectives { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 10px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-10px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    button { padding: 1rem; background: #0f172a; color: #facc15; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+    button:hover { background: #1e293b; }
+    footer { background: #0f172a; color: #facc15; text-align: center; padding: 2rem 1rem; }
+    .socials a { margin: 0 0.5rem; font-size: 1.5rem; color: #facc15; }
+    .socials a:hover { color: #fbbf24; }
+  </style>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div>EduSync</div>
+    <div>
+      <a href="#mission">Mission</a>
+      <a href="#vision">Vision</a>
+      <a href="#objectives">Objectives</a>
+      <a href="#features">Features</a>
+      <a href="#partners">Partners</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Welcome to EduSync</h1>
+    <p>Track. Learn. Succeed.</p>
+  </header>
+
+  <section id="mission" data-aos="fade-up">
+    <h2>Our Mission</h2>
+    <div class="card">Empowering schools with technology to track academic performance and enhance learning experiences.</div>
+  </section>
+
+  <section id="vision" data-aos="fade-up">
+    <h2>Our Vision</h2>
+    <div class="card">To create a connected education ecosystem where students thrive and educators succeed.</div>
+  </section>
+
+  <section id="objectives" data-aos="fade-up">
+    <h2>Objectives</h2>
+    <div class="objectives">
+      <div class="card">Enhance academic transparency</div>
+      <div class="card">Easy communication between teachers and students</div>
+      <div class="card">Streamline fee and attendance tracking</div>
+    </div>
+  </section>
+
+  <section id="features" data-aos="fade-up">
+    <h2>Core Features</h2>
+    <div class="features">
+      <div class="card">Academics Tracking</div>
+      <div class="card">Online Fee Payments</div>
+      <div class="card">Attendance Monitoring</div>
+      <div class="card">Exam Results</div>
+      <div class="card">Important Questions & Model Papers</div>
+    </div>
+  </section>
+
+  <section id="partners" data-aos="fade-up">
+    <h2>Our Partners</h2>
+    <div class="card">Coming Soon...</div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <a href="mailto:infoatsecura@gmail.com">
+      <button>Send Us an Email</button>
+    </a>
+  </section>
+
+  <footer>
+    <div>Follow Us</div>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2025 EduSync. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
